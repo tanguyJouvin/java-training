@@ -159,7 +159,6 @@ public class ArrayTraining {
         int[] newArr = new int[n];
         for( int i = 0; i < n; i++){
             newArr[i -1] = array[i];
-
         }
         return newArr;
     }
