@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class MatrixTraining {
 
@@ -21,8 +19,7 @@ public class MatrixTraining {
      * eg: {{null, null, null}, {null, null, null}}
      */
     public String[][] emptyStringMatrix(int lines, int columns) {
-        String [][] arr = new String[lines][columns];
-        return arr;
+        return emptyStringMatrix(lines, columns);
     }
 
     /**

@@ -77,10 +77,7 @@ public class FundamentalsTraining {
      * @return true if value is even, eg: true
      */
     public static boolean isValueEven(final int value) {
-        if(value %2 == 0){
-            return true;
-        }
-        return false;
+        return value %2 == 0;
     }
 
     /**
@@ -88,10 +85,7 @@ public class FundamentalsTraining {
      * @return true if value is odd, eg: true
      */
     public static boolean isValueOdd(final int value) {
-        if(value %2 == 1){
-            return true;
-        }
-        return false;
+        return value %2 == 1;
     }
 
     /**
@@ -113,10 +107,7 @@ public class FundamentalsTraining {
      *         "true"
      */
     public static String trueOrFalse(final boolean value) {
-        if(value == true){
-            return "true";
-        }
-        return "false";
+        return value ? "true" : "false";
     }
 
     /**
@@ -181,10 +172,7 @@ public class FundamentalsTraining {
      * @return true if first and second value is true, eg: false
      */
     public static boolean firstAndSecond(final boolean first, final boolean second) {
-        if(first == true && second == true) {
-            return true;
-        }
-        return false;
+        return first && second;
     }
 
     /**
@@ -193,10 +181,7 @@ public class FundamentalsTraining {
      * @return true if first and second value are equals, eg: true
      */
     public static boolean booleanEquals(final boolean first, final boolean second) {
-        if(first == second) {
-            return true;
-        }
-        return false;
+        return first == second;
     }
 
     /**
@@ -217,9 +202,6 @@ public class FundamentalsTraining {
      * @return first value if isNotFirst is false, second value otherwise, eg: 4
      */
     public static int whichValueIsThis(final int first, final int second, final boolean isNotFirst) {
-        if(!isNotFirst) {
-            return first;
-        }
-        return second;
+        return !isNotFirst ? first : second;
     }
 }
