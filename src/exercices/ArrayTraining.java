@@ -36,7 +36,7 @@ public class ArrayTraining {
      * @return a String array with a, b and c values, eg: {"test", sample", "value"}
      */
     public String[] stringArray(final String a, final String b, final String c) {
-        final String[] newArray = new String[] { "test", "sample", "value" };
+        final String[] newArray = new String[] { a, b, c };
         return newArray;
     }
 
